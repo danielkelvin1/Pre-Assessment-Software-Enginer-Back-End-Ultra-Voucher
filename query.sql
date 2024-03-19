@@ -1,0 +1,1 @@
+SELECT child.id, child.name, parent.parent_name FROM child LEFT JOIN parent ON child.parent_id = parent.id;
